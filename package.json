@@ -1,0 +1,23 @@
+{
+  "name": "perfect-readme-generator",
+  "version": "1.0.0",
+  "description": "a perfect readme generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patricktheodore/perfect-readme-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patricktheodore/perfect-readme-generator/issues"
+  },
+  "homepage": "https://github.com/patricktheodore/perfect-readme-generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
+}
