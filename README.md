@@ -1,24 +1,24 @@
  
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-  [![Contributers: ](https://img.shields.io/github/contributors//?color=brightgreen&label=Contributors)](/graphs/contributers) 
-  [![Forks: ](https://img.shields.io/github/forks//?color=blue&label=Forks)](/network/members) 
-  [![Stars: ](https://img.shields.io/github/stars//?color=blueviolet&label=Stars)](/stargazers)
-  [![Issues: ](https://img.shields.io/github/issues//?color=red&label=Issues)](/issues)
+  [![Contributers: https://github.com/patricktheodore/perfect-readme-generator](https://img.shields.io/github/contributors/patricktheodore/perfect-readme-generator?color=brightgreen&label=Contributors)](https://github.com/patricktheodore/perfect-readme-generator/graphs/contributers) 
+  [![Forks: https://github.com/patricktheodore/perfect-readme-generator](https://img.shields.io/github/forks/patricktheodore/perfect-readme-generator?color=blue&label=Forks)](https://github.com/patricktheodore/perfect-readme-generator/network/members) 
+  [![Stars: https://github.com/patricktheodore/perfect-readme-generator](https://img.shields.io/github/stars/patricktheodore/perfect-readme-generator?color=blueviolet&label=Stars)](https://github.com/patricktheodore/perfect-readme-generator/stargazers)
+  [![Issues: https://github.com/patricktheodore/perfect-readme-generator](https://img.shields.io/github/issues/patricktheodore/perfect-readme-generator?color=red&label=Issues)](https://github.com/patricktheodore/perfect-readme-generator/issues)
 
-  <h1 align="center"></h3>
+  <h1 align="center">perfect-readme-generator</h3>
   
   <div>
     <p align="center">
-      
+      command line application that generates a perfect read me for your application
       <br />
-      <a href=""><strong>Explore the docs »</strong></a>
+      <a href="https://github.com/patricktheodore/perfect-readme-generator"><strong>Explore the docs »</strong></a>
       <br />
       <br />
-      <a href="">View Demo</a>
+      <a href="https://github.com/patricktheodore/perfect-readme-generator">View Demo</a>
       ·
-      <a href="/issues">Report Bug</a>
+      <a href="https://github.com/patricktheodore/perfect-readme-generator/issues">Report Bug</a>
       ·
-      <a href="/issues">Request Feature</a>
+      <a href="https://github.com/patricktheodore/perfect-readme-generator/issues">Request Feature</a>
     </p>
   </div>
 
@@ -57,11 +57,11 @@
   
   <!-- ABOUT THE PROJECT -->
   # About The Project
-  
+  run this application from inside your new repository to create a perfect README.md file based on your responses to the prompted questions.
 
   
   ## Built With
-  
+  node.js
 
   
   
@@ -70,15 +70,15 @@
   <br />
   
   ## Prerequisites
-  
+  node.js
   
   ## Installation
-  
+  clone to your local and make sure node.js is up to date
 
   
   <!-- USAGE EXAMPLES -->
   # Usage
-  
+  run from inside your new repository. make sure you provide up to date links and responses to the questions
   
   
   <!-- CONTRIBUTING -->
@@ -87,13 +87,11 @@
     
   If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement". Don't forget to give the project a star! Thanks again!
     
-  * Fork the Project
-  * Create your Feature Branch (git checkout -b feature/AmazingFeature)
-  * Commit your Changes (git commit -m 'Add some AmazingFeature')
-  * Push to the Branch (git push origin feature/AmazingFeature)
-  * Open a Pull Request
-
-</br>
+    * Fork the Project
+    * Create your Feature Branch (git checkout -b feature/AmazingFeature)
+    * Commit your Changes (git commit -m 'Add some AmazingFeature')
+    * Push to the Branch (git push origin feature/AmazingFeature)
+    * Open a Pull Request
   
   
   <!-- LICENSE -->
@@ -103,19 +101,19 @@
   
   <!-- TEST -->
   # Tests
-  
+  nil
   
   
   <!-- QUESTIONS & CONTACT -->
   # Questions & Contact Info
-  Find my github profile at: https://github.com/ </br>
-  Browse the repo:  </br>
-  Get in contact via email:  
+  Find my github profile at: https://github.com/patricktheodore </br>
+  Browse the repo: https://github.com/patricktheodore/perfect-readme-generator </br>
+  Get in contact via email: patricktheodoresara@gmail.com 
   </br></br>
-  My preferred method of communication: 
+  My preferred method of communication: email
   
   
   <!-- ACKNOWLEDGMENTS -->
   # Acknowledgments
-  
+  shield.io
   <p align="right">(<a href="#top">back to top</a>)</p>  
