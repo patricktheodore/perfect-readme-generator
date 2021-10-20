@@ -1,16 +1,15 @@
  
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-  [![Contributers: https://github.com/patricktheodore/perfect-readme-generator](https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge)](https://github.com/patricktheodore/perfect-readme-generator/graphs/contributers) 
-  [![Forks: https://github.com/patricktheodore/perfect-readme-generator](https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge)](https://github.com/patricktheodore/perfect-readme-generator/network/members) 
-  [![Stars: https://github.com/patricktheodore/perfect-readme-generator](https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge)](https://github.com/patricktheodore/perfect-readme-generator/stargazers)
-  [![Issues: https://github.com/patricktheodore/perfect-readme-generator](https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge)](https://github.com/patricktheodore/perfect-readme-generator/issues)
+  [![Contributers: https://github.com/patricktheodore/perfect-readme-generator](https://img.shields.io/github/contributors/patricktheodore/perfect-readme-generator?color=brightgreen&label=Contributors)](https://github.com/patricktheodore/perfect-readme-generator/graphs/contributers) 
+  [![Forks: https://github.com/patricktheodore/perfect-readme-generator](https://img.shields.io/github/forks/patricktheodore/perfect-readme-generator?color=blue&label=Forks)](https://github.com/patricktheodore/perfect-readme-generator/network/members) 
+  [![Stars: https://github.com/patricktheodore/perfect-readme-generator](https://img.shields.io/github/stars/patricktheodore/perfect-readme-generator?color=blueviolet&label=Stars)](https://github.com/patricktheodore/perfect-readme-generator/stargazers)
+  [![Issues: https://github.com/patricktheodore/perfect-readme-generator](https://img.shields.io/github/issues/patricktheodore/perfect-readme-generator?color=red&label=Issues)](https://github.com/patricktheodore/perfect-readme-generator/issues)
 
-  
-  <h3 align="center">perfect-readme-generator</h3>
+  <h3 align="center">perfect readme generator</h3>
   
   <div>
     <p align="center">
-      a perfect read me generator powered by command line
+      readme.md generator powered by command line
       <br />
       <a href="https://github.com/patricktheodore/perfect-readme-generator"><strong>Explore the docs »</strong></a>
       <br />
@@ -54,7 +53,7 @@
   
   <!-- ABOUT THE PROJECT -->
   ## About The Project
-  a command line application powered by node.js that prompts user for input, and in turn generates a readme for the project
+  command line application that generates a readme.md file based on user input
   <p align="right">(<a href="#top">back to top</a>)</p>
   
   ### Built With
@@ -70,13 +69,13 @@
   node.js
   
   ### Installation
-  clone, and run node index.js from terminal
+  clone and run node index.js from terminal
   <p align="right">(<a href="#top">back to top</a>)</p>
   
   
   <!-- USAGE EXAMPLES -->
   ## Usage
-  follow the prompts given by terminal
+  follow the given prompts
   <p align="right">(<a href="#top">back to top</a>)</p>
   
   
@@ -95,7 +94,7 @@
   
   <!-- TEST -->
   ## Tests
-  i dont know about this one
+  i still dont know what this means
   <p align="right">(<a href="#top">back to top</a>)</p>
   
   
@@ -110,5 +109,5 @@
   
   <!-- ACKNOWLEDGMENTS -->
   ## Acknowledgments
-  patrick :)
+  the badge guys
   <p align="right">(<a href="#top">back to top</a>)</p>  
