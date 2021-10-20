@@ -1,5 +1,4 @@
 let badge = '';
-let link = '';
 
 function renderLicenseBadge(license) {
   switch (license) {
@@ -49,14 +48,15 @@ function renderLicenseLink(license) {
   return link
  }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) { }
-
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return ` 
-  [![License: ${data.license}](${renderLicenseBadge(data.license)})]  
+  [![License: ${data.license}](${renderLicenseBadge(data.license)})
+  [![Contributers: ${data.remoteRepo}](https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge)](${data.remoteRepo}/graphs/contributers) 
+  [![Forks: ${data.remoteRepo}](https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge)](${data.remoteRepo}/network/members) 
+  [![Stars: ${data.remoteRepo}](https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge)](${data.remoteRepo}/stargazers)
+  [![Issues: ${data.remoteRepo}](https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge)](${data.remoteRepo}/issues)
+
   
   <h3 align="center">${data.title}</h3>
   
@@ -74,8 +74,9 @@ function generateMarkdown(data) {
       <a href="${data.remoteRepo}/issues">Request Feature</a>
     </p>
   </div>
-  
-  
+
+  <br />
+  <br />
   
   <!-- TABLE OF CONTENTS -->
   <details>
@@ -139,7 +140,7 @@ function generateMarkdown(data) {
   
   <!-- LICENSE -->
   ## License
-  Distributed under the ${data.license}. See LICENSE.txt for more information.
+  Distributed under the ${data.license}. Please see for ${renderLicenseLink(data.license)} more details. 
   
   <p align="right">(<a href="#top">back to top</a>)</p>
   
