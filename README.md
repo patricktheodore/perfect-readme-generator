@@ -1,26 +1,30 @@
  
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-  [![LinkedIn: patricktheodore](https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555)](patrickilinkedin)
+  [![Contributers: https://github.com/patricktheodore/perfect-readme-generator](https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge)](https://github.com/patricktheodore/perfect-readme-generator/graphs/contributers) 
+  [![Forks: https://github.com/patricktheodore/perfect-readme-generator](https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge)](https://github.com/patricktheodore/perfect-readme-generator/network/members) 
+  [![Stars: https://github.com/patricktheodore/perfect-readme-generator](https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge)](https://github.com/patricktheodore/perfect-readme-generator/stargazers)
+  [![Issues: https://github.com/patricktheodore/perfect-readme-generator](https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge)](https://github.com/patricktheodore/perfect-readme-generator/issues)
+
   
-  
-  <h3 align="center">perfectreadme</h3>
+  <h3 align="center">perfect-readme-generator</h3>
   
   <div>
     <p align="center">
-      perfect read me generator
+      a perfect read me generator powered by command line
       <br />
-      <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+      <a href="https://github.com/patricktheodore/perfect-readme-generator"><strong>Explore the docs »</strong></a>
       <br />
       <br />
-      <a href="https://github.com/github_username/repo_name">View Demo</a>
+      <a href="https://github.com/patricktheodore/perfect-readme-generator">View Demo</a>
       ·
-      <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+      <a href="https://github.com/patricktheodore/perfect-readme-generator/issues">Report Bug</a>
       ·
-      <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+      <a href="https://github.com/patricktheodore/perfect-readme-generator/issues">Request Feature</a>
     </p>
   </div>
-  
-  
+
+  <br />
+  <br />
   
   <!-- TABLE OF CONTENTS -->
   <details>
@@ -50,7 +54,7 @@
   
   <!-- ABOUT THE PROJECT -->
   ## About The Project
-  user input generates readme.md file
+  a command line application powered by node.js that prompts user for input, and in turn generates a readme for the project
   <p align="right">(<a href="#top">back to top</a>)</p>
   
   ### Built With
@@ -63,48 +67,48 @@
   <br />
   
   ### Prerequisites
-  inquirer npm
+  node.js
   
   ### Installation
-  install via npm
+  clone, and run node index.js from terminal
   <p align="right">(<a href="#top">back to top</a>)</p>
   
   
   <!-- USAGE EXAMPLES -->
   ## Usage
-  use via node
+  follow the prompts given by terminal
   <p align="right">(<a href="#top">back to top</a>)</p>
   
   
   <!-- CONTRIBUTING -->
   ## Contributing
-  contribute ,com
+  fork and create a pull request
   <p align="right">(<a href="#top">back to top</a>)</p>
   
   
   <!-- LICENSE -->
   ## License
-  Distributed under the MIT. See LICENSE.txt for more information.
+  Distributed under the MIT. Please see for https://opensource.org/licenses/MIT more details. 
   
   <p align="right">(<a href="#top">back to top</a>)</p>
   
   
   <!-- TEST -->
   ## Tests
-  test . uwa.gov
+  i dont know about this one
   <p align="right">(<a href="#top">back to top</a>)</p>
   
   
   <!-- QUESTIONS & CONTACT -->
   ## Questions & Contact Info
   patricktheodore
-  perfectreadme.repo
-  pateick@gmail.com
+  https://github.com/patricktheodore/perfect-readme-generator
+  patricktheodoresara@gmail.com
   email
   <p align="right">(<a href="#top">back to top</a>)</p>
   
   
   <!-- ACKNOWLEDGMENTS -->
   ## Acknowledgments
-  ok
+  patrick :)
   <p align="right">(<a href="#top">back to top</a>)</p>  
