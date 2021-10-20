@@ -17,8 +17,13 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'What is the title of your application/repository?',
+        message: 'What is the title of your project?',
         name: 'title',
+    },
+    {
+        type: 'input',
+        message: 'What is the name of your repository?',
+        name: 'repoTitle',
     },
     {
         type: 'input',

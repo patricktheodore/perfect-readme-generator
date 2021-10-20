@@ -52,12 +52,11 @@ function renderLicenseLink(license) {
 function generateMarkdown(data) {
   return ` 
   [![License: ${data.license}](${renderLicenseBadge(data.license)})
-  [![Contributers: ${data.remoteRepo}](https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge)](${data.remoteRepo}/graphs/contributers) 
-  [![Forks: ${data.remoteRepo}](https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge)](${data.remoteRepo}/network/members) 
-  [![Stars: ${data.remoteRepo}](https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge)](${data.remoteRepo}/stargazers)
-  [![Issues: ${data.remoteRepo}](https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge)](${data.remoteRepo}/issues)
+  [![Contributers: ${data.remoteRepo}](https://img.shields.io/github/contributors/${data.gitUser}/${data.repoTitle}?color=brightgreen&label=Contributors)](${data.remoteRepo}/graphs/contributers) 
+  [![Forks: ${data.remoteRepo}](https://img.shields.io/github/forks/${data.gitUser}/${data.repoTitle}?color=blue&label=Forks)](${data.remoteRepo}/network/members) 
+  [![Stars: ${data.remoteRepo}](https://img.shields.io/github/stars/${data.gitUser}/${data.repoTitle}?color=blueviolet&label=Stars)](${data.remoteRepo}/stargazers)
+  [![Issues: ${data.remoteRepo}](https://img.shields.io/github/issues/${data.gitUser}/${data.repoTitle}?color=red&label=Issues)](${data.remoteRepo}/issues)
 
-  
   <h3 align="center">${data.title}</h3>
   
   <div>
