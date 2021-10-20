@@ -1,24 +1,24 @@
  
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-  [![Contributers: https://github.com/patricktheodore/perfect-readme-generator](https://img.shields.io/github/contributors/patricktheodore/perfect-readme-generator?color=brightgreen&label=Contributors)](https://github.com/patricktheodore/perfect-readme-generator/graphs/contributers) 
-  [![Forks: https://github.com/patricktheodore/perfect-readme-generator](https://img.shields.io/github/forks/patricktheodore/perfect-readme-generator?color=blue&label=Forks)](https://github.com/patricktheodore/perfect-readme-generator/network/members) 
-  [![Stars: https://github.com/patricktheodore/perfect-readme-generator](https://img.shields.io/github/stars/patricktheodore/perfect-readme-generator?color=blueviolet&label=Stars)](https://github.com/patricktheodore/perfect-readme-generator/stargazers)
-  [![Issues: https://github.com/patricktheodore/perfect-readme-generator](https://img.shields.io/github/issues/patricktheodore/perfect-readme-generator?color=red&label=Issues)](https://github.com/patricktheodore/perfect-readme-generator/issues)
+  [![Contributers: ](https://img.shields.io/github/contributors//?color=brightgreen&label=Contributors)](/graphs/contributers) 
+  [![Forks: ](https://img.shields.io/github/forks//?color=blue&label=Forks)](/network/members) 
+  [![Stars: ](https://img.shields.io/github/stars//?color=blueviolet&label=Stars)](/stargazers)
+  [![Issues: ](https://img.shields.io/github/issues//?color=red&label=Issues)](/issues)
 
-  <h3 align="center">perfect readme generator</h3>
+  <h1 align="center"></h3>
   
   <div>
     <p align="center">
-      readme.md generator powered by command line
+      
       <br />
-      <a href="https://github.com/patricktheodore/perfect-readme-generator"><strong>Explore the docs »</strong></a>
+      <a href=""><strong>Explore the docs »</strong></a>
       <br />
       <br />
-      <a href="https://github.com/patricktheodore/perfect-readme-generator">View Demo</a>
+      <a href="">View Demo</a>
       ·
-      <a href="https://github.com/patricktheodore/perfect-readme-generator/issues">Report Bug</a>
+      <a href="/issues">Report Bug</a>
       ·
-      <a href="https://github.com/patricktheodore/perfect-readme-generator/issues">Request Feature</a>
+      <a href="/issues">Request Feature</a>
     </p>
   </div>
 
@@ -28,7 +28,7 @@
   <!-- TABLE OF CONTENTS -->
   <details>
     <summary>Table of Contents</summary>
-    <ol>
+    <ul>
       <li>
         <a href="#about-the-project">About The Project</a>
         <ul>
@@ -47,67 +47,75 @@
       <li><a href="#license">License</a></li>
       <li><a href="#contact">Contact</a></li>
       <li><a href="#acknowledgments">Acknowledgments</a></li>
-    </ol>
+    </ul>
   </details>
+
+  <br />
+  <br />
+  
   
   
   <!-- ABOUT THE PROJECT -->
-  ## About The Project
-  command line application that generates a readme.md file based on user input
-  <p align="right">(<a href="#top">back to top</a>)</p>
+  # About The Project
   
-  ### Built With
-  node.js
-  <p align="right">(<a href="#top">back to top</a>)</p>
+
+  
+  ## Built With
+  
+
   
   
   <!-- GETTING STARTED -->
-  ## Getting Started
+  # Getting Started
   <br />
   
-  ### Prerequisites
-  node.js
+  ## Prerequisites
   
-  ### Installation
-  clone and run node index.js from terminal
-  <p align="right">(<a href="#top">back to top</a>)</p>
   
+  ## Installation
+  
+
   
   <!-- USAGE EXAMPLES -->
-  ## Usage
-  follow the given prompts
-  <p align="right">(<a href="#top">back to top</a>)</p>
+  # Usage
+  
   
   
   <!-- CONTRIBUTING -->
-  ## Contributing
-  fork and create a pull request
-  <p align="right">(<a href="#top">back to top</a>)</p>
+  # Contributing
+  Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+    
+  If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement". Don't forget to give the project a star! Thanks again!
+    
+  * Fork the Project
+  * Create your Feature Branch (git checkout -b feature/AmazingFeature)
+  * Commit your Changes (git commit -m 'Add some AmazingFeature')
+  * Push to the Branch (git push origin feature/AmazingFeature)
+  * Open a Pull Request
+
+</br>
   
   
   <!-- LICENSE -->
-  ## License
+  # License
   Distributed under the MIT. Please see for https://opensource.org/licenses/MIT more details. 
-  
-  <p align="right">(<a href="#top">back to top</a>)</p>
-  
+
   
   <!-- TEST -->
-  ## Tests
-  i still dont know what this means
-  <p align="right">(<a href="#top">back to top</a>)</p>
+  # Tests
+  
   
   
   <!-- QUESTIONS & CONTACT -->
-  ## Questions & Contact Info
-  patricktheodore
-  https://github.com/patricktheodore/perfect-readme-generator
-  patricktheodoresara@gmail.com
-  email
-  <p align="right">(<a href="#top">back to top</a>)</p>
+  # Questions & Contact Info
+  Find my github profile at: https://github.com/ </br>
+  Browse the repo:  </br>
+  Get in contact via email:  
+  </br></br>
+  My preferred method of communication: 
   
   
   <!-- ACKNOWLEDGMENTS -->
-  ## Acknowledgments
-  the badge guys
+  # Acknowledgments
+  
   <p align="right">(<a href="#top">back to top</a>)</p>  

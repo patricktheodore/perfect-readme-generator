@@ -74,9 +74,10 @@ const questions = [
         default: 'MIT',
     },
     {
-        type: 'input',
-        message: 'Please provide details on how other devs can contribute.',
+        type: 'confirm',
+        message: 'Would you like to include details on how other devs can contribute?',
         name: 'contribution',
+        default: true,
     },
     {
         type: 'input',
@@ -98,6 +99,7 @@ const questions = [
 function generateReadme() {
     inquirer.prompt(questions)
         .then((data) => {
+            console.log(data)
             writeToFile(fileName, data);
             return data
         })

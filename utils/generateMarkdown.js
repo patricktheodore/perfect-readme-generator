@@ -48,6 +48,25 @@ function renderLicenseLink(license) {
   return link
  }
 
+ let contribution = '';
+
+ function generateContributionSection(response) {
+   if (response === true) {
+    contribution = `Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+    
+  If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement". Don't forget to give the project a star! Thanks again!
+    
+    * Fork the Project
+    * Create your Feature Branch (git checkout -b feature/AmazingFeature)
+    * Commit your Changes (git commit -m 'Add some AmazingFeature')
+    * Push to the Branch (git push origin feature/AmazingFeature)
+    * Open a Pull Request`
+   } else if (response === false) {
+     contribution = `This project is for private use and not looking for contributions at this time.`
+   }
+   return contribution
+ }
+
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return ` 
@@ -57,7 +76,7 @@ function generateMarkdown(data) {
   [![Stars: ${data.remoteRepo}](https://img.shields.io/github/stars/${data.gitUser}/${data.repoTitle}?color=blueviolet&label=Stars)](${data.remoteRepo}/stargazers)
   [![Issues: ${data.remoteRepo}](https://img.shields.io/github/issues/${data.gitUser}/${data.repoTitle}?color=red&label=Issues)](${data.remoteRepo}/issues)
 
-  <h3 align="center">${data.title}</h3>
+  <h1 align="center">${data.title}</h3>
   
   <div>
     <p align="center">
@@ -80,7 +99,7 @@ function generateMarkdown(data) {
   <!-- TABLE OF CONTENTS -->
   <details>
     <summary>Table of Contents</summary>
-    <ol>
+    <ul>
       <li>
         <a href="#about-the-project">About The Project</a>
         <ul>
@@ -99,68 +118,66 @@ function generateMarkdown(data) {
       <li><a href="#license">License</a></li>
       <li><a href="#contact">Contact</a></li>
       <li><a href="#acknowledgments">Acknowledgments</a></li>
-    </ol>
+    </ul>
   </details>
+
+  <br />
+  <br />
+  
   
   
   <!-- ABOUT THE PROJECT -->
-  ## About The Project
+  # About The Project
   ${data.detailedDescription}
-  <p align="right">(<a href="#top">back to top</a>)</p>
+
   
-  ### Built With
+  ## Built With
   ${data.builtWith}
-  <p align="right">(<a href="#top">back to top</a>)</p>
+
   
   
   <!-- GETTING STARTED -->
-  ## Getting Started
+  # Getting Started
   <br />
   
-  ### Prerequisites
+  ## Prerequisites
   ${data.prerequisites}
   
-  ### Installation
+  ## Installation
   ${data.installation}
-  <p align="right">(<a href="#top">back to top</a>)</p>
-  
+
   
   <!-- USAGE EXAMPLES -->
-  ## Usage
+  # Usage
   ${data.usage}
-  <p align="right">(<a href="#top">back to top</a>)</p>
   
   
   <!-- CONTRIBUTING -->
-  ## Contributing
-  ${data.contribution}
-  <p align="right">(<a href="#top">back to top</a>)</p>
+  # Contributing
+  ${generateContributionSection(data.contribution)}
   
   
   <!-- LICENSE -->
-  ## License
+  # License
   Distributed under the ${data.license}. Please see for ${renderLicenseLink(data.license)} more details. 
-  
-  <p align="right">(<a href="#top">back to top</a>)</p>
-  
+
   
   <!-- TEST -->
-  ## Tests
+  # Tests
   ${data.tests}
-  <p align="right">(<a href="#top">back to top</a>)</p>
   
   
   <!-- QUESTIONS & CONTACT -->
-  ## Questions & Contact Info
-  ${data.gitUser}
-  ${data.remoteRepo}
-  ${data.email}
-  ${data.contact}
-  <p align="right">(<a href="#top">back to top</a>)</p>
+  # Questions & Contact Info
+  Find my github profile at: https://github.com/${data.gitUser} </br>
+  Browse the repo: ${data.remoteRepo} </br>
+  Get in contact via email: ${data.email} 
+  </br></br>
+  My preferred method of communication: ${data.contact}
   
   
   <!-- ACKNOWLEDGMENTS -->
-  ## Acknowledgments
+  # Acknowledgments
   ${data.acknowledgments}
   <p align="right">(<a href="#top">back to top</a>)</p>  
 `;
