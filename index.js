@@ -85,9 +85,16 @@ const questions = [
         name: 'tests',
     },
     {
-        type: 'input',
-        message: 'Please provied details on how best to contact you.',
+        type: 'list',
+        message: 'Please select the best way to contact you:',
+        choices: [
+            'email',
+            'phone',
+            'github',
+            'social-media'
+        ],
         name: 'contact',
+        default: 'email'
     },
     {
         type: 'input',

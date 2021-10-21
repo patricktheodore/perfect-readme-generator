@@ -1,5 +1,5 @@
  
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![License: Apache license 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
   [![Contributers: https://github.com/patricktheodore/perfect-readme-generator](https://img.shields.io/github/contributors/patricktheodore/perfect-readme-generator?color=brightgreen&label=Contributors)](https://github.com/patricktheodore/perfect-readme-generator/graphs/contributers) 
   [![Forks: https://github.com/patricktheodore/perfect-readme-generator](https://img.shields.io/github/forks/patricktheodore/perfect-readme-generator?color=blue&label=Forks)](https://github.com/patricktheodore/perfect-readme-generator/network/members) 
   [![Stars: https://github.com/patricktheodore/perfect-readme-generator](https://img.shields.io/github/stars/patricktheodore/perfect-readme-generator?color=blueviolet&label=Stars)](https://github.com/patricktheodore/perfect-readme-generator/stargazers)
@@ -9,7 +9,7 @@
   
   <div>
     <p align="center">
-      command line application that generates a perfect read me for your application
+      cla powered by node.js
       <br />
       <a href="https://github.com/patricktheodore/perfect-readme-generator"><strong>Explore the docs »</strong></a>
       <br />
@@ -57,7 +57,7 @@
   
   <!-- ABOUT THE PROJECT -->
   # About The Project
-  run this application from inside your new repository to create a perfect README.md file based on your responses to the prompted questions.
+  user input defines a readme.md file
 
   
   ## Built With
@@ -73,12 +73,12 @@
   node.js
   
   ## Installation
-  clone to your local and make sure node.js is up to date
+  clone and run
 
   
   <!-- USAGE EXAMPLES -->
   # Usage
-  run from inside your new repository. make sure you provide up to date links and responses to the questions
+  follow the prompts
   
   
   <!-- CONTRIBUTING -->
@@ -96,12 +96,12 @@
   
   <!-- LICENSE -->
   # License
-  Distributed under the MIT. Please see for https://opensource.org/licenses/MIT more details. 
+  Distributed under the Apache license 2.0. Please see for https://opensource.org/licenses/Apache-2.0 more details. 
 
   
   <!-- TEST -->
   # Tests
-  nil
+  run node.js
   
   
   <!-- QUESTIONS & CONTACT -->
@@ -110,10 +110,10 @@
   Browse the repo: https://github.com/patricktheodore/perfect-readme-generator </br>
   Get in contact via email: patricktheodoresara@gmail.com 
   </br></br>
-  My preferred method of communication: email
+  My preferred method of communication: github
   
   
   <!-- ACKNOWLEDGMENTS -->
   # Acknowledgments
-  shield.io
+  no thanks
   <p align="right">(<a href="#top">back to top</a>)</p>  
