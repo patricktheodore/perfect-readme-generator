@@ -1,24 +1,24 @@
  
-  [![License: Apache license 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-  [![Contributers: https://github.com/patricktheodore/perfect-readme-generator](https://img.shields.io/github/contributors/patricktheodore/perfect-readme-generator?color=brightgreen&label=Contributors)](https://github.com/patricktheodore/perfect-readme-generator/graphs/contributers) 
-  [![Forks: https://github.com/patricktheodore/perfect-readme-generator](https://img.shields.io/github/forks/patricktheodore/perfect-readme-generator?color=blue&label=Forks)](https://github.com/patricktheodore/perfect-readme-generator/network/members) 
-  [![Stars: https://github.com/patricktheodore/perfect-readme-generator](https://img.shields.io/github/stars/patricktheodore/perfect-readme-generator?color=blueviolet&label=Stars)](https://github.com/patricktheodore/perfect-readme-generator/stargazers)
-  [![Issues: https://github.com/patricktheodore/perfect-readme-generator](https://img.shields.io/github/issues/patricktheodore/perfect-readme-generator?color=red&label=Issues)](https://github.com/patricktheodore/perfect-readme-generator/issues)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![Contributers: ](https://img.shields.io/github/contributors//?color=brightgreen&label=Contributors)](/graphs/contributers) 
+  [![Forks: ](https://img.shields.io/github/forks//?color=blue&label=Forks)](/network/members) 
+  [![Stars: ](https://img.shields.io/github/stars//?color=blueviolet&label=Stars)](/stargazers)
+  [![Issues: ](https://img.shields.io/github/issues//?color=red&label=Issues)](/issues)
 
-  <h1 align="center">perfect-readme-generator</h3>
+  <h1 align="center"></h3>
   
   <div>
     <p align="center">
-      cla powered by node.js
+      
       <br />
-      <a href="https://github.com/patricktheodore/perfect-readme-generator"><strong>Explore the docs »</strong></a>
+      <a href=""><strong>Explore the docs »</strong></a>
       <br />
       <br />
-      <a href="https://github.com/patricktheodore/perfect-readme-generator">View Demo</a>
+      <a href="">View Demo</a>
       ·
-      <a href="https://github.com/patricktheodore/perfect-readme-generator/issues">Report Bug</a>
+      <a href="/issues">Report Bug</a>
       ·
-      <a href="https://github.com/patricktheodore/perfect-readme-generator/issues">Request Feature</a>
+      <a href="/issues">Request Feature</a>
     </p>
   </div>
 
@@ -57,11 +57,11 @@
   
   <!-- ABOUT THE PROJECT -->
   # About The Project
-  user input defines a readme.md file
+  
 
   
   ## Built With
-  node.js
+  
 
   
   
@@ -70,15 +70,15 @@
   <br />
   
   ## Prerequisites
-  node.js
+  
   
   ## Installation
-  clone and run
+  
 
   
   <!-- USAGE EXAMPLES -->
   # Usage
-  follow the prompts
+  
   
   
   <!-- CONTRIBUTING -->
@@ -96,24 +96,24 @@
   
   <!-- LICENSE -->
   # License
-  Distributed under the Apache license 2.0. Please see for https://opensource.org/licenses/Apache-2.0 more details. 
+  Distributed under the MIT. Please see for https://opensource.org/licenses/MIT more details. 
 
   
   <!-- TEST -->
   # Tests
-  run node.js
+  
   
   
   <!-- QUESTIONS & CONTACT -->
   # Questions & Contact Info
-  Find my github profile at: https://github.com/patricktheodore </br>
-  Browse the repo: https://github.com/patricktheodore/perfect-readme-generator </br>
-  Get in contact via email: patricktheodoresara@gmail.com 
+  Find my github profile at: https://github.com/ </br>
+  Browse the repo:  </br>
+  Get in contact via email:  
   </br></br>
-  My preferred method of communication: github
+  My preferred methods of communication are: email, phone, github, social-media
   
   
   <!-- ACKNOWLEDGMENTS -->
   # Acknowledgments
-  no thanks
+  
   <p align="right">(<a href="#top">back to top</a>)</p>  

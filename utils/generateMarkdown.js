@@ -173,7 +173,7 @@ function generateMarkdown(data) {
   Browse the repo: ${data.remoteRepo} </br>
   Get in contact via email: ${data.email} 
   </br></br>
-  My preferred method of communication: ${data.contact}
+  My preferred methods of communication are: ${data.contact}
   
   
   <!-- ACKNOWLEDGMENTS -->

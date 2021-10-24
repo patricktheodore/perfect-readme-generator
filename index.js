@@ -85,13 +85,13 @@ const questions = [
         name: 'tests',
     },
     {
-        type: 'list',
-        message: 'Please select the best way to contact you:',
+        type: 'checkbox',
+        message: 'Please select the best ways to contact you:',
         choices: [
             'email',
-            'phone',
-            'github',
-            'social-media'
+            ' phone',
+            ' github',
+            ' social-media'
         ],
         name: 'contact',
         default: 'email'
