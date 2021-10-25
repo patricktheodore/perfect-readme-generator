@@ -1,6 +1,7 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
-const generateMarkdown = require('./utils/generateMarkdown.js')
+const generateMarkdown = require('./utils/generateMarkdown.js');
+const axios = require('axios');
 
 const fileName = 'README.md'
 
@@ -9,11 +10,28 @@ const questions = [
         type: 'input',
         message: 'What is your github username?',
         name: 'gitUser',
+        validate: function (userInput) {
+            return axios.get(`https://api.github.com/users/${userInput}`)
+                .then(res => {
+                    return true
+                })
+                .catch(err => {
+                    return ('please enter a valid github username account');
+                });
+        }
     },
     {
         type: 'input',
         message: 'What is your email address?',
         name: 'email',
+        validate: function (userInput) {
+            const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+            if (re.test(String(userInput).toLowerCase())) {
+                return true
+            } else {
+                return ('Please enter a valid email!');
+            };
+        }
     },
     {
         type: 'input',
@@ -24,11 +42,15 @@ const questions = [
         type: 'input',
         message: 'What is the name of your repository?',
         name: 'repoTitle',
-    },
-    {
-        type: 'input',
-        message: 'Please provide a link to the application/repository.',
-        name: 'remoteRepo',
+        validate: function (userInput, answers) {
+            return axios.get(`https://api.github.com/repos/${answers.gitUser}/${userInput}`)
+                .then(res => {
+                    return true
+                })
+                .catch(err => {
+                    return ('please enter a valid github repository.');
+                })
+            }
     },
     {
         type: 'input',
@@ -118,9 +140,14 @@ function generateReadme() {
             }
         });
 }
-
+function generateRemoteRepoUrl(gitUser, repoTitle) {
+   return (`https://api.github.com/repos/${gitUser}/${repoTitle}`)
+ } 
 
 function writeToFile(fileName, data) {
+
+    data.remoteRepo = generateRemoteRepoUrl(data.gitUser, data.repoTitle);
+
     fs.writeFile(fileName, generateMarkdown(data), (err) =>
         err ? console.log(err) : console.log('Success!')
     );

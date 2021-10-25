@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/patricktheodore/perfect-readme-generator#readme",
   "dependencies": {
+    "axios": "^0.23.0",
     "inquirer": "^8.2.0"
   }
 }
