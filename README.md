@@ -9,6 +9,7 @@
   
   <div>
     <p align="center">
+     this readme.md file was generated using this very application. 
       perfect-readme-generator is a command line application powered by node.js that generates a high-quality stylish readme for your project. 
       <br />
       <a href="https://github.com/patricktheodore/perfect-readme-generator"><strong>Explore the docs »</strong></a>
@@ -58,6 +59,8 @@
   <!-- ABOUT THE PROJECT -->
   # About The Project
   perfect-readme-generator makes use of the inquirer package, and will prompt the user for information about their application repository. It will then take that information and generate a README.md file with the title of the project and sections that contain all of the collected data. Questions cover, gitHub username, repo Url, user email, description, prerequisites, installation, usage, license, contribution, tests and questions. It will also generate a clickable table of contents that navigates the user to the corresponding section in the readme.
+  
+  To view a walkthrough video, please click https://watch.screencastify.com/v/ABNVsZtuq7w7hnJon55Q
 
   
   ## Built With
