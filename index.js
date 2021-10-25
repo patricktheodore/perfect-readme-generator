@@ -141,7 +141,7 @@ function generateReadme() {
         });
 }
 function generateRemoteRepoUrl(gitUser, repoTitle) {
-   return (`https://api.github.com/repos/${gitUser}/${repoTitle}`)
+   return (`https://github.com/${gitUser}/${repoTitle}`)
  } 
 
 function writeToFile(fileName, data) {
