@@ -75,6 +75,8 @@ function generateMarkdown(data) {
   [![Stars: ${data.remoteRepo}](https://img.shields.io/github/stars/${data.gitUser}/${data.repoTitle}?color=blueviolet&label=Stars)](${data.remoteRepo}/stargazers)
   [![Issues: ${data.remoteRepo}](https://img.shields.io/github/issues/${data.gitUser}/${data.repoTitle}?color=red&label=Issues)](${data.remoteRepo}/issues)
 
+  <br>
+  
   <h1 align="center">${data.title}</h3>
   
   <div>
@@ -129,43 +131,49 @@ function generateMarkdown(data) {
   # About The Project
   ${data.detailedDescription}
 
-  
+  </br> 
+
   ## Built With
-  ${data.builtWith}
+    ${data.builtWith}
 
   
+  </br>
   
   <!-- GETTING STARTED -->
   # Getting Started
-  <br />
   
   ## Prerequisites
-  ${data.prerequisites}
+    ${data.prerequisites}
   
   ## Installation
-  ${data.installation}
+    ${data.installation}
 
-  
+  <br>
+
   <!-- USAGE EXAMPLES -->
   # Usage
-  ${data.usage}
+    ${data.usage}
   
-  
+  <br>
+
   <!-- CONTRIBUTING -->
   # Contributing
   ${generateContributionSection(data.contribution)}
   
-  
+  <br>
+
   <!-- LICENSE -->
   # License
   Distributed under the ${data.license}. Please see for ${renderLicenseLink(data.license)} more details. 
 
-  
+  <br>
+
   <!-- TEST -->
   # Tests
-  ${data.tests}
+    ${data.tests}
   
-  
+  <br>
+
   <!-- QUESTIONS & CONTACT -->
   # Questions & Contact Info
   Find my github profile at: https://github.com/${data.gitUser} </br>
@@ -174,6 +182,7 @@ function generateMarkdown(data) {
   </br></br>
   My preferred methods of communication are: ${data.contact}
   
+  <br>
   
   <!-- ACKNOWLEDGMENTS -->
   # Acknowledgments

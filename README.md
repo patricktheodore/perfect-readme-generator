@@ -1,24 +1,24 @@
  
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-  [![Contributers: https://github.com/patricktheodore/perfect-readme-generator](https://img.shields.io/github/contributors/patricktheodore/perfect-readme-generator?color=brightgreen&label=Contributors)](https://github.com/patricktheodore/perfect-readme-generator/graphs/contributers) 
-  [![Forks: https://github.com/patricktheodore/perfect-readme-generator](https://img.shields.io/github/forks/patricktheodore/perfect-readme-generator?color=blue&label=Forks)](https://github.com/patricktheodore/perfect-readme-generator/network/members) 
-  [![Stars: https://github.com/patricktheodore/perfect-readme-generator](https://img.shields.io/github/stars/patricktheodore/perfect-readme-generator?color=blueviolet&label=Stars)](https://github.com/patricktheodore/perfect-readme-generator/stargazers)
-  [![Issues: https://github.com/patricktheodore/perfect-readme-generator](https://img.shields.io/github/issues/patricktheodore/perfect-readme-generator?color=red&label=Issues)](https://github.com/patricktheodore/perfect-readme-generator/issues)
+  [![Contributers: https://github.com/patricktheodore/employee-tracker](https://img.shields.io/github/contributors/patricktheodore/employee-tracker?color=brightgreen&label=Contributors)](https://github.com/patricktheodore/employee-tracker/graphs/contributers) 
+  [![Forks: https://github.com/patricktheodore/employee-tracker](https://img.shields.io/github/forks/patricktheodore/employee-tracker?color=blue&label=Forks)](https://github.com/patricktheodore/employee-tracker/network/members) 
+  [![Stars: https://github.com/patricktheodore/employee-tracker](https://img.shields.io/github/stars/patricktheodore/employee-tracker?color=blueviolet&label=Stars)](https://github.com/patricktheodore/employee-tracker/stargazers)
+  [![Issues: https://github.com/patricktheodore/employee-tracker](https://img.shields.io/github/issues/patricktheodore/employee-tracker?color=red&label=Issues)](https://github.com/patricktheodore/employee-tracker/issues)
 
-  <h1 align="center">perfect-readme-generator</h3>
+  <h1 align="center">Employee Tracker</h3>
   
   <div>
     <p align="center">
-      perfect-readme-generator is a command line application powered by node.js that generates a high-quality stylish readme for your project. 
+      A CLI that to track a companies employees, role details and associated departments. 
       <br />
-      <a href="https://github.com/patricktheodore/perfect-readme-generator"><strong>Explore the docs »</strong></a>
+      <a href="https://github.com/patricktheodore/employee-tracker"><strong>Explore the docs »</strong></a>
       <br />
       <br />
-      <a href="https://github.com/patricktheodore/perfect-readme-generator">View Demo</a>
+      <a href="https://github.com/patricktheodore/employee-tracker">View Demo</a>
       ·
-      <a href="https://github.com/patricktheodore/perfect-readme-generator/issues">Report Bug</a>
+      <a href="https://github.com/patricktheodore/employee-tracker/issues">Report Bug</a>
       ·
-      <a href="https://github.com/patricktheodore/perfect-readme-generator/issues">Request Feature</a>
+      <a href="https://github.com/patricktheodore/employee-tracker/issues">Request Feature</a>
     </p>
   </div>
 
@@ -57,11 +57,11 @@
   
   <!-- ABOUT THE PROJECT -->
   # About The Project
-  perfect-readme-generator makes use of the inquirer package, and will prompt the user for information about their application repository. It will then take that information and generate a README.md file with the title of the project and sections that contain all of the collected data. Questions cover, gitHub username, repo Url, user email, description, prerequisites, installation, usage, license, contribution, tests and questions. It will also generate a clickable table of contents that navigates the user to the corresponding section in the readme.
+  Developers frequently have to create interfaces that allow non-developers to easily view and interact with information stored in databases. These interfaces are called **content management systems (CMS)**. Your assignment this week is to build a command-line application from scratch to manage a company's employee database, using Node.js, Inquirer, and MySQL.
 
   
   ## Built With
-  inquirer package, axios, regex, javascript/node.js
+  node.js / MySQL2 package / inquirer package / console.table package
 
   
   
@@ -70,28 +70,20 @@
   <br />
   
   ## Prerequisites
-  node.js
+  N/A
   
   ## Installation
-  clone the remote repo to your local. Open the terminal and navigate to the repo. Make sure you have the latest version of node.js using ‘node -v’ . If your version is before v14.18.0, please update before proceeding. After verifying node version, run ‘npm install’ from the console/terminal. Upon completion the app is now ready for use. 
+  Fork the repo, create the database, run node app.js
 
   
   <!-- USAGE EXAMPLES -->
   # Usage
-  Navigate to ‘index.js’ inside the repo on your local terminal or run the integrated terminal from within vscode. Run the application using node - ‘node index.js’. Answer the prompted questions as accurately as possible, as certain features require exact inputs (gitHub Username, the name of the repo and the remote repo url. After answering the questions, look at your beautiful README.md file. 
+  Run node app.js and follow the prompts
   
   
   <!-- CONTRIBUTING -->
   # Contributing
-  Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
-    
-  If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement". Don't forget to give the project a star! Thanks again!
-    
-    * Fork the Project
-    * Create your Feature Branch (git checkout -b feature/AmazingFeature)
-    * Commit your Changes (git commit -m 'Add some AmazingFeature')
-    * Push to the Branch (git push origin feature/AmazingFeature)
-    * Open a Pull Request
+  This project is for private use and not looking for contributions at this time.
   
   
   <!-- LICENSE -->
@@ -107,13 +99,13 @@
   <!-- QUESTIONS & CONTACT -->
   # Questions & Contact Info
   Find my github profile at: https://github.com/patricktheodore </br>
-  Browse the repo: https://github.com/patricktheodore/perfect-readme-generator </br>
+  Browse the repo: https://github.com/patricktheodore/employee-tracker </br>
   Get in contact via email: patricktheodoresara@gmail.com 
   </br></br>
-  My preferred methods of communication are: email, github
+  My preferred methods of communication are: email
   
   
   <!-- ACKNOWLEDGMENTS -->
   # Acknowledgments
-  inquirer, axios, shields.io
+  N/A
   <p align="right">(<a href="#top">back to top</a>)</p>  
