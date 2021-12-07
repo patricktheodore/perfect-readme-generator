@@ -82,9 +82,7 @@ function renderLicenseLink(license) {
 
   <div style="text-align: center;">
     <p>
-      ${data.briefDescription}
-      <br />
-      <br />
+      <h3>${data.briefDescription}</h3>
       <a href="${data.remoteRepo}"><strong>Explore the docs »</strong></a>
       <br />
       <a href="${data.remoteRepo}">View Demo</a>
@@ -139,8 +137,8 @@ function renderLicenseLink(license) {
 
   </br> 
 
-  ## Built With
-    ${data.builtWith}
+  # Built With
+  ${data.builtWith}
 
   
   </br>

@@ -12,9 +12,7 @@
 
   <div style="text-align: center;">
     <p>
-      Review rental properties on the market from previous renters. 
-      <br />
-      <br />
+      <h3>Review rental properties on the market from previous renters.</h3>
       <a href="https://github.com/patricktheodore/rental-reviewer"><strong>Explore the docs »</strong></a>
       <br />
       <a href="https://github.com/patricktheodore/rental-reviewer">View Demo</a>
@@ -60,11 +58,11 @@
   
   <!-- ABOUT THE PROJECT -->
   # About The Project
-  Renter's Review allows renters to view and add there own reviews to rental properties on the market. This allows renters to save time attending viewings and potentially find out information not provided by rental agencies. 
+  <p style="text-align: justify;">Renter's Review allows renters to view and add there own reviews to rental properties on the market. This allows renters to save time attending viewings and potentially find out information not provided by rental agencies. </p>
 
   </br> 
 
-  ## Built With
+  # Built With
     
 
   
