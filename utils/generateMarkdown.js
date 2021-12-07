@@ -1,7 +1,9 @@
 let badge = '';
 const languages = require('./languages');
 const frameworks = require('./frameworks');
-const designs = require('./design')
+const designs = require('./design');
+const editor = require('./editor');
+const tools = require('./badges');
 
 function renderLicenseBadge(license) {
   switch (license) {
@@ -141,9 +143,13 @@ function renderLicenseLink(license) {
   </br> 
 
   # Built With
+  <p style="text-align: center;">
   ${languages(data.languages)}
   ${frameworks(data.frameworks)}
+  ${tools(data.tools)}
   ${designs(data.designs)}
+  ${editor(data.editors)}
+  </p>
 
   
   </br>

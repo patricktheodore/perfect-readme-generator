@@ -56,6 +56,9 @@ function addFramework(framework) {
         case 'SweetAlert':
             badge = '<a><img alt="badge for SweetAlert" src="https://img.shields.io/badge/Sweet_Alert2-9146FF?style=for-the-badge&logo=youtube-gaming&logoColor=white" target="_blank" /></a>';
             break;
+            case 'Google Fonts':
+                badge = '<a><img alt="badge for Google Fonts" src="https://img.shields.io/badge/google_fonts-4285F4?style=for-the-badge&logo=google&logoColor=white" target="_blank" /></a>';
+                break;
     }
     frameworksToAdd.push(badge);
 }

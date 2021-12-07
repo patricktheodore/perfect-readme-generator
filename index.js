@@ -63,9 +63,101 @@ const questions = [
         name: 'detailedDescription',
     },
     {
-        type: 'input',
-        message: 'What technologies/languages did you use to build your project?',
-        name: 'builtWith',
+        type: 'checkbox',
+        message: 'Which Languages did you use to build this application? (Select all applicable).',
+        choices: [
+            'HTML5',
+            'CSS3',
+            'JavaScript',
+            'Markdown',
+            'PHP',
+            'Python',
+            'Ruby',
+            'Rust',
+            'TypeScript'
+        ],
+        name: 'languages',
+        default: 'Markdown'
+    },
+    {
+        type: 'checkbox',
+        message: 'Which Frameworks/Platforms/Libraries did you use to build this application? (Select all applicable).',
+        choices: [
+            'Angular.js',
+            'Bootstrap',
+            'Express.js',
+            'FontAwesome',
+            'Flutter',
+            'Google Fonts',
+            'Insomnia',
+            'jQuery',
+            'NPM',
+            'Next JS',
+            'Node.js',
+            'Rails',
+            'React',
+            'React Native',
+            'SASS',
+            'SweetAlert',
+            'Svelte',
+            'TailwindCSS',
+            'Vue.js'
+        ],
+        name: 'frameworks',
+        default: 'NPM'
+    },
+    {
+        type: 'checkbox',
+        message: 'Which Design Applications did you use to build this application? (Select all applicable).',
+        choices: [
+            'Adobe After Effects',
+            'Adobe Fonts',
+            'Adobe Illustrator',
+            'Adobe InDesign',
+            'Adobe Photoshop',
+            'Blender',
+            'Canva',
+            'Dribble',
+            'Figma'
+        ],
+        name: 'designs',
+        default: 'Adobe Fonts'
+    },
+    {
+        type: 'checkbox',
+        message: 'Which Code Editor Did you use? (Select all applicable).',
+        choices: [
+            'CodePen',
+            'Visual Studio Code',
+            'Xcode'
+        ],
+        name: 'editors',
+        default: 'Visual Studio Code'
+    },
+    {
+        type: 'checkbox',
+        message: 'Select any other tools you used in production',
+        choices: [
+            'Airtable',
+            'AWS',
+            'Azure',
+            'Dropbox',
+            'ESLint',
+            'Git',
+            'GitHub',
+            'GitLab',
+            'Google Drive',
+            'Heroku',
+            'MDN Web Docs',
+            'MongoDB',
+            'Postman',
+            'Sequelize',
+            'Stack Overflow',
+            'Trello'
+
+        ],
+        name: 'tools',
+        default: 'GitHub'
     },
     {
         type: 'input',
@@ -117,66 +209,6 @@ const questions = [
         ],
         name: 'contact',
         default: 'email'
-    },
-    {
-        type: 'checkbox',
-        message: 'Which Languages did you use to build this application? (Select all applicable).',
-        choices: [
-            'HTML5',
-            'CSS3',
-            'JavaScript',
-            'Markdown',
-            'PHP',
-            'Python',
-            'Ruby',
-            'Rust',
-            'TypeScript'
-        ],
-        name: 'languages',
-        default: 'Markdown'
-    },
-    {
-        type: 'checkbox',
-        message: 'Which Frameworks/Platforms/Libraries did you use to build this application? (Select all applicable).',
-        choices: [
-            'Angular.js',
-            'Bootstrap',
-            'Express.js',
-            'FontAwesome',
-            'Flutter',
-            'Insomnia',
-            'jQuery',
-            'NPM',
-            'Next JS',
-            'Node.js',
-            'Rails',
-            'React',
-            'React Native',
-            'SASS',
-            'SweetAlert',
-            'Svelte',
-            'TailwindCSS',
-            'Vue.js'
-        ],
-        name: 'frameworks',
-        default: 'NPM'
-    },
-    {
-        type: 'checkbox',
-        message: 'Which Design Applications did you use to build this application? (Select all applicable).',
-        choices: [
-            'Adobe After Effects',
-            'Adobe Fonts',
-            'Adobe Illustrator',
-            'Adobe InDesign',
-            'Adobe Photoshop',
-            'Blender',
-            'Canva',
-            'Dribble',
-            'Figma'
-        ],
-        name: 'designs',
-        default: 'Adobe Fonts'
     },
     {
         type: 'input',
