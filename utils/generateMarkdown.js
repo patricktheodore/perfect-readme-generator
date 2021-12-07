@@ -1,4 +1,9 @@
 let badge = '';
+const languages = require('./languages');
+const frameworks = require('./frameworks');
+const designs = require('./design');
+const editor = require('./editor');
+const tools = require('./badges');
 
 function renderLicenseBadge(license) {
   switch (license) {
@@ -138,7 +143,13 @@ function renderLicenseLink(license) {
   </br> 
 
   # Built With
-  ${data.builtWith}
+  <p style="text-align: center;">
+  ${languages(data.languages)}
+  ${frameworks(data.frameworks)}
+  ${tools(data.tools)}
+  ${designs(data.designs)}
+  ${editor(data.editors)}
+  </p>
 
   
   </br>
@@ -184,7 +195,7 @@ function renderLicenseLink(license) {
   Browse the repo: ${data.remoteRepo} </br>
   Get in contact via email: ${data.email} 
   </br></br>
-  My preferred methods of communication are: ${data.contact}
+  My preferred methods of communication are: ${data.contact[0]}
   
   <br>
   
