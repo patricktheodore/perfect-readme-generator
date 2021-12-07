@@ -1,29 +1,32 @@
- 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-  [![Contributers: https://github.com/patricktheodore/employee-tracker](https://img.shields.io/github/contributors/patricktheodore/employee-tracker?color=brightgreen&label=Contributors)](https://github.com/patricktheodore/employee-tracker/graphs/contributers) 
-  [![Forks: https://github.com/patricktheodore/employee-tracker](https://img.shields.io/github/forks/patricktheodore/employee-tracker?color=blue&label=Forks)](https://github.com/patricktheodore/employee-tracker/network/members) 
-  [![Stars: https://github.com/patricktheodore/employee-tracker](https://img.shields.io/github/stars/patricktheodore/employee-tracker?color=blueviolet&label=Stars)](https://github.com/patricktheodore/employee-tracker/stargazers)
-  [![Issues: https://github.com/patricktheodore/employee-tracker](https://img.shields.io/github/issues/patricktheodore/employee-tracker?color=red&label=Issues)](https://github.com/patricktheodore/employee-tracker/issues)
 
-  <h1 align="center">Employee Tracker</h3>
-  
-  <div>
-    <p align="center">
-      A CLI that to track a companies employees, role details and associated departments. 
+  <h1 style="text-align: center;">Renter's Review</h3>
+
+  <p style="text-align: center;">
+  <a href="https://github.com/patricktheodore/rental-reviewer/issues"><img alt="number of issues for the repository" src="https://img.shields.io/github/issues/patricktheodore/rental-reviewer?color=red&label=Issues&style=for-the-badge" target="_blank" /></a>
+  <a href="https://github.com/patricktheodore/rental-reviewer"><img alt="the size of the repo in kb" src="https://img.shields.io/github/repo-size/patricktheodore/rental-reviewer?color=orange&label=Repo-Size&style=for-the-badge" target="_blank" /></a>
+  <a href="https://opensource.org/licenses/MIT"><img alt="licence the repo is published under" src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" target="_blank" /></a>
+  <a href="https://github.com/patricktheodore/rental-reviewer/graphs/contributers"><img alt="the number of contributers on the repo" src="https://img.shields.io/github/contributors/patricktheodore/rental-reviewer?color=brightgreen&label=Contributors&style=for-the-badge" target="_blank" /></a>
+  <a href="https://github.com/patricktheodore/rental-reviewer/network/members"><img alt="total number of times the repo has been forked" src="https://img.shields.io/github/forks/patricktheodore/rental-reviewer?color=blue&label=Forks&style=for-the-badge" target="_blank" /></a>
+  <a href="https://github.com/patricktheodore/rental-reviewer/stargazers"><img alt="total number of times the repo has been starred" src="https://img.shields.io/github/stars/patricktheodore/rental-reviewer?color=blueviolet&label=Stars&style=for-the-badge" target="_blank" /></a>
+  </p>
+
+  <div style="text-align: center;">
+    <p>
+      Review rental properties on the market from previous renters. 
       <br />
-      <a href="https://github.com/patricktheodore/employee-tracker"><strong>Explore the docs »</strong></a>
       <br />
+      <a href="https://github.com/patricktheodore/rental-reviewer"><strong>Explore the docs »</strong></a>
       <br />
-      <a href="https://github.com/patricktheodore/employee-tracker">View Demo</a>
-      ·
-      <a href="https://github.com/patricktheodore/employee-tracker/issues">Report Bug</a>
-      ·
-      <a href="https://github.com/patricktheodore/employee-tracker/issues">Request Feature</a>
+      <a href="https://github.com/patricktheodore/rental-reviewer">View Demo</a>
+       | 
+      <a href="https://github.com/patricktheodore/rental-reviewer/issues">Report Bug</a>
+       | 
+      <a href="https://github.com/patricktheodore/rental-reviewer/issues">Request Feature</a>
     </p>
   </div>
 
-  <br />
-  <br />
+  <br>
+  <br>
   
   <!-- TABLE OF CONTENTS -->
   <details>
@@ -57,55 +60,70 @@
   
   <!-- ABOUT THE PROJECT -->
   # About The Project
-  Developers frequently have to create interfaces that allow non-developers to easily view and interact with information stored in databases. These interfaces are called **content management systems (CMS)**. Your assignment this week is to build a command-line application from scratch to manage a company's employee database, using Node.js, Inquirer, and MySQL.
+  Renter's Review allows renters to view and add there own reviews to rental properties on the market. This allows renters to save time attending viewings and potentially find out information not provided by rental agencies. 
 
-  
+  </br> 
+
   ## Built With
-  node.js / MySQL2 package / inquirer package / console.table package
+    
 
   
+  </br>
   
   <!-- GETTING STARTED -->
   # Getting Started
-  <br />
   
   ## Prerequisites
-  N/A
+    
   
   ## Installation
-  Fork the repo, create the database, run node app.js
+    
 
-  
+  <br>
+
   <!-- USAGE EXAMPLES -->
   # Usage
-  Run node app.js and follow the prompts
+    
   
-  
+  <br>
+
   <!-- CONTRIBUTING -->
   # Contributing
-  This project is for private use and not looking for contributions at this time.
+  Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+    
+  If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement". Don't forget to give the project a star! Thanks again!
+    
+    * Fork the Project
+    * Create your Feature Branch (git checkout -b feature/AmazingFeature)
+    * Commit your Changes (git commit -m 'Add some AmazingFeature')
+    * Push to the Branch (git push origin feature/AmazingFeature)
+    * Open a Pull Request
   
-  
+  <br>
+
   <!-- LICENSE -->
   # License
   Distributed under the MIT. Please see for https://opensource.org/licenses/MIT more details. 
 
-  
+  <br>
+
   <!-- TEST -->
   # Tests
-  N/A
+    
   
-  
+  <br>
+
   <!-- QUESTIONS & CONTACT -->
   # Questions & Contact Info
   Find my github profile at: https://github.com/patricktheodore </br>
-  Browse the repo: https://github.com/patricktheodore/employee-tracker </br>
+  Browse the repo: https://github.com/patricktheodore/rental-reviewer </br>
   Get in contact via email: patricktheodoresara@gmail.com 
   </br></br>
-  My preferred methods of communication are: email
+  My preferred methods of communication are: 
   
+  <br>
   
   <!-- ACKNOWLEDGMENTS -->
   # Acknowledgments
-  N/A
+  
   <p align="right">(<a href="#top">back to top</a>)</p>  
