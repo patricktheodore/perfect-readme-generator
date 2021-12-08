@@ -1,4 +1,6 @@
 let badge = '';
+
+
 const languages = require('./languages');
 const frameworks = require('./frameworks');
 const designs = require('./design');
@@ -144,11 +146,9 @@ function renderLicenseLink(license) {
 
   # Built With
   <p style="text-align: center;">
-  ${languages(data.languages)}
-  ${frameworks(data.frameworks)}
-  ${tools(data.tools)}
-  ${designs(data.designs)}
-  ${editor(data.editors)}
+  ${languages(data.languages)}${frameworks(data.frameworks)}${editor(data.editors)}${tools(data.tools)}${designs(data.designs)}
+
+
   </p>
 
   
@@ -191,12 +191,9 @@ function renderLicenseLink(license) {
 
   <!-- QUESTIONS & CONTACT -->
   # Questions & Contact Info
-  Find my github profile at: https://github.com/${data.gitUser} </br>
-  Browse the repo: ${data.remoteRepo} </br>
-  Get in contact via email: ${data.email} 
-  </br></br>
-  My preferred methods of communication are: ${data.contact[0]}
-  
+  <a href="https://github.com/${data.gitUser}"><img alt="badge for GitHub" src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" target="_blank" /></a>
+  <a href="https://github.com/patricktheodore/rental-reviewer/stargazers"><img alt="total number of times the repo has been starred" src="https://img.shields.io/static/v1?label=PORTFOLIO&message=patricktheodore&color=<COLOR>&style=for-the-badge" target="_blank" /></a>  
+  <a href="mailto:${data.email}"><img alt="Link to email contact address" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>  
   <br>
   
   <!-- ACKNOWLEDGMENTS -->

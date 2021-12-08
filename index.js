@@ -50,7 +50,7 @@ const questions = [
                 .catch(err => {
                     return ('please enter a valid github repository.');
                 })
-            }
+        }
     },
     {
         type: 'input',
@@ -220,9 +220,8 @@ const questions = [
 function generateReadme() {
     inquirer.prompt(questions)
         .then((data) => {
-            console.log(data)
+            console.log(data);
             writeToFile(fileName, data);
-            return data
         })
         .catch((error) => {
             if (error.isTtyError) {
@@ -232,9 +231,10 @@ function generateReadme() {
             }
         });
 }
+
 function generateRemoteRepoUrl(gitUser, repoTitle) {
-   return (`https://github.com/${gitUser}/${repoTitle}`)
- } 
+    return (`https://github.com/${gitUser}/${repoTitle}`)
+}
 
 function writeToFile(fileName, data) {
 

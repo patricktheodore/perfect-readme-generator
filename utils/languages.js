@@ -1,5 +1,6 @@
 let languagesToAdd = [];
 
+
 function addLanguage(language) {
     switch (language) {
         case 'HTML5':
@@ -9,7 +10,7 @@ function addLanguage(language) {
             badge = '<a><img alt="badge for CSS3 Language" src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" target="_blank" /></a>';
             break;
         case 'JavaScript':
-            badge = '<a><img alt="badge for JavaScript Language" src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" target="_blank" /></a>';
+            badge = '<a><img alt="badge for JavaScript Language" src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" target="_blank" /></a>';
             break;
         case 'Markdown':
             badge = '<a><img alt="badge for Markdown Language" src="https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white" target="_blank" /></a>';

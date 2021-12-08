@@ -117,3 +117,9 @@
   # Acknowledgments
   inquirer, axios, shields.io
   <p align="right">(<a href="#top">back to top</a>)</p>  
+
+
+  ${frameworks(data.frameworks)}
+  ${tools(data.tools)}
+  ${designs(data.designs)}
+  ${editor(data.editors)}

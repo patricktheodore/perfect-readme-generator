@@ -15,9 +15,9 @@ function addEditor(editor) {
     editorToAdd.push(badge);
 }
 
-function getEditors(editors) {
+function getEditor(editors) {
     editors.map(editor => addEditor(editor));
-    return editorsToAdd.join('\n');
+    return editorToAdd.join('\n');
 }
 
-module.exports = getEditors;
+module.exports = getEditor;
