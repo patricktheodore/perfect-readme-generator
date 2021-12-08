@@ -199,16 +199,9 @@ const questions = [
         name: 'tests',
     },
     {
-        type: 'checkbox',
-        message: 'Please select the best ways to contact you:',
-        choices: [
-            'email',
-            ' phone',
-            ' github',
-            ' social-media'
-        ],
-        name: 'contact',
-        default: 'email'
+        type: 'input',
+        message: 'Include a link to your portfolio here if you like.',
+        name: 'portfolio',
     },
     {
         type: 'input',

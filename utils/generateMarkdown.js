@@ -192,7 +192,7 @@ function renderLicenseLink(license) {
   <!-- QUESTIONS & CONTACT -->
   # Questions & Contact Info
   <a href="https://github.com/${data.gitUser}"><img alt="badge for GitHub" src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" target="_blank" /></a>
-  <a href="https://github.com/patricktheodore/rental-reviewer/stargazers"><img alt="total number of times the repo has been starred" src="https://img.shields.io/static/v1?label=PORTFOLIO&message=patricktheodore&color=<COLOR>&style=for-the-badge" target="_blank" /></a>  
+  <a href="${data.portfolio}"><img alt="link to user portfolio" src="https://img.shields.io/static/v1?label=PORTFOLIO&message=${data.gitUser}&color=green&style=for-the-badge" target="_blank" /></a>  
   <a href="mailto:${data.email}"><img alt="Link to email contact address" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>  
   <br>
   
