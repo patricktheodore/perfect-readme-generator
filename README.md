@@ -10,7 +10,7 @@
   <a href="https://github.com/patricktheodore/perfect-readme-generator/stargazers"><img alt="total number of times the repo has been starred" src="https://img.shields.io/github/stars/patricktheodore/perfect-readme-generator?color=blueviolet&label=Stars&style=for-the-badge" target="_blank" /></a>
   </p>
 
-  <div style="text-align: center;">
+  <div align="center">
     <p>
       <h5>Perfect Readme Generator is a command line application powered by node.js that generates a high-quality stylish readme for your project.</h5>
       <a href="https://github.com/patricktheodore/perfect-readme-generator"><strong>Explore the docs »</strong></a>
