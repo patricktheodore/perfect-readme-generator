@@ -12,7 +12,7 @@
 
   <div style="text-align: center;">
     <p>
-      <h3>Perfect Readme Generator is a command line application powered by node.js that generates a high-quality stylish readme for your project.</h3>
+      <h5>Perfect Readme Generator is a command line application powered by node.js that generates a high-quality stylish readme for your project.</h5>
       <a href="https://github.com/patricktheodore/perfect-readme-generator"><strong>Explore the docs »</strong></a>
       <br />
       <a href="https://github.com/patricktheodore/perfect-readme-generator">View Demo</a>
