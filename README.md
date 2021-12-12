@@ -1,7 +1,7 @@
 
-<h1 align="center">Perfect Readme Generator</h1>>
+<h1 align="center">Perfect Readme Generator</h1>
 
-  <p style="text-align: center;">
+  <p align="center">
   <a href="https://github.com/patricktheodore/perfect-readme-generator/issues"><img alt="number of issues for the repository" src="https://img.shields.io/github/issues/patricktheodore/perfect-readme-generator?color=red&label=Issues&style=for-the-badge" target="_blank" /></a>
   <a href="https://github.com/patricktheodore/perfect-readme-generator"><img alt="the size of the repo in kb" src="https://img.shields.io/github/repo-size/patricktheodore/perfect-readme-generator?color=orange&label=Repo-Size&style=for-the-badge" target="_blank" /></a>
   <a href="https://opensource.org/licenses/MIT"><img alt="licence the repo is published under" src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" target="_blank" /></a>
