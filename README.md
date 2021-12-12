@@ -1,5 +1,5 @@
 
-  <h1 style="text-align: center;">Perfect Readme Generator</h1>
+  <center><h1 style="text-align: center;">Perfect Readme Generator</h1></center>
 
   <p style="text-align: center;">
   <a href="https://github.com/patricktheodore/perfect-readme-generator/issues"><img alt="number of issues for the repository" src="https://img.shields.io/github/issues/patricktheodore/perfect-readme-generator?color=red&label=Issues&style=for-the-badge" target="_blank" /></a>
