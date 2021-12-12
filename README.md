@@ -24,7 +24,6 @@
   </div>
 
   <br>
-  <br>
   
   <!-- TABLE OF CONTENTS -->
   <details>
@@ -49,11 +48,7 @@
       <li><a href="#contact">Contact</a></li>
       <li><a href="#acknowledgments">Acknowledgments</a></li>
     </ul>
-  </details>
-
-  <br />
-  <br />
-  
+  </details> 
   
   
   <!-- ABOUT THE PROJECT -->
