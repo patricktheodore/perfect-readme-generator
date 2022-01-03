@@ -76,9 +76,9 @@ function renderLicenseLink(license) {
   
   function generateMarkdown(data) {
     return `
-  <h1 style="text-align: center;">${data.title}</h1>
+  <h1 align="center">${data.title}</h1>
 
-  <p style="text-align: center;">
+  <p align="center">
   <a href="${data.remoteRepo}/issues"><img alt="number of issues for the repository" src="https://img.shields.io/github/issues/${data.gitUser}/${data.repoTitle}?color=red&label=Issues&style=for-the-badge" target="_blank" /></a>
   <a href="${data.remoteRepo}"><img alt="the size of the repo in kb" src="https://img.shields.io/github/repo-size/${data.gitUser}/${data.repoTitle}?color=orange&label=Repo-Size&style=for-the-badge" target="_blank" /></a>
   <a href="${renderLicenseLink(data.license)}"><img alt="licence the repo is published under" src="${renderLicenseBadge(data.license)}?style=for-the-badge" target="_blank" /></a>
@@ -87,7 +87,7 @@ function renderLicenseLink(license) {
   <a href="${data.remoteRepo}/stargazers"><img alt="total number of times the repo has been starred" src="https://img.shields.io/github/stars/${data.gitUser}/${data.repoTitle}?color=blueviolet&label=Stars&style=for-the-badge" target="_blank" /></a>
   </p>
 
-  <div style="text-align: center;">
+  <div align="center">
     <p>
       <h3>${data.briefDescription}</h3>
       <a href="${data.remoteRepo}"><strong>Explore the docs »</strong></a>
@@ -145,8 +145,8 @@ function renderLicenseLink(license) {
   </br> 
 
   # Built With
-  <p style="text-align: center;">
-  ${languages(data.languages)}${frameworks(data.frameworks)}${editor(data.editors)}${tools(data.tools)}${designs(data.designs)}
+  <p align="center">
+  ${tools(data.tools)}
 
 
   </p>
@@ -179,7 +179,7 @@ function renderLicenseLink(license) {
 
   <!-- LICENSE -->
   # License
-  Distributed under the ${data.license}. Please see for ${renderLicenseLink(data.license)} more details. 
+  Distributed under ${data.license}. Please see for ${renderLicenseLink(data.license)} more details. 
 
   <br>
 
@@ -192,8 +192,8 @@ function renderLicenseLink(license) {
   <!-- QUESTIONS & CONTACT -->
   # Questions & Contact Info
   <a href="https://github.com/${data.gitUser}"><img alt="badge for GitHub" src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" target="_blank" /></a>
-  <a href="${data.portfolio}"><img alt="link to user portfolio" src="https://img.shields.io/static/v1?label=PORTFOLIO&message=${data.gitUser}&color=green&style=for-the-badge" target="_blank" /></a>  
-  <a href="mailto:${data.email}"><img alt="Link to email contact address" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>  
+  <a href="${data.portfolio}"><img alt="link to user portfolio" src="https://img.shields.io/static/v1?label=PORTFOLIO&message=${data.gitUser}&color=green&style=for-the-badge" target="_blank" /></a>
+  <a href="mailto:${data.email}"><img alt="Link to email contact address" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
   <br>
   
   <!-- ACKNOWLEDGMENTS -->

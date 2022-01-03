@@ -1,4 +1,4 @@
-let designsToAdd = [];
+// let designsToAdd = []; 
 
 function addDesign(design) {
     switch (design) {
