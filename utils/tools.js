@@ -1,7 +1,7 @@
 let toolsToAdd = [];
 
-function addTools(tools) {
-    switch (tools) {
+function addTool(tool) {
+    switch (tool) {
         case 'Git':
             badge = '<a><img alt="badge for Git" src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" target="_blank" /></a>';
             break;
@@ -160,7 +160,7 @@ function addTools(tools) {
 }
 
 function getTools(tools) {
-    tools.map(tool => addTools(tool));
+    tools.map(tool => addTool(tool));
     return toolsToAdd.join('\n');
 }
 

@@ -1,25 +1,25 @@
 
-  <h1 align="center">Social Network API</h1>
+  <h1 align="center">React Portfolio</h1>
 
   <p align="center">
-  <a href="https://github.com/patricktheodore/social-network-api/issues"><img alt="number of issues for the repository" src="https://img.shields.io/github/issues/patricktheodore/social-network-api?color=red&label=Issues&style=for-the-badge" target="_blank" /></a>
-  <a href="https://github.com/patricktheodore/social-network-api"><img alt="the size of the repo in kb" src="https://img.shields.io/github/repo-size/patricktheodore/social-network-api?color=orange&label=Repo-Size&style=for-the-badge" target="_blank" /></a>
+  <a href="https://github.com/patricktheodore/patricktheodore-react-portfolio/issues"><img alt="number of issues for the repository" src="https://img.shields.io/github/issues/patricktheodore/patricktheodore-react-portfolio?color=red&label=Issues&style=for-the-badge" target="_blank" /></a>
+  <a href="https://github.com/patricktheodore/patricktheodore-react-portfolio"><img alt="the size of the repo in kb" src="https://img.shields.io/github/repo-size/patricktheodore/patricktheodore-react-portfolio?color=orange&label=Repo-Size&style=for-the-badge" target="_blank" /></a>
   <a href="https://opensource.org/licenses/MIT"><img alt="licence the repo is published under" src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" target="_blank" /></a>
-  <a href="https://github.com/patricktheodore/social-network-api/graphs/contributers"><img alt="the number of contributers on the repo" src="https://img.shields.io/github/contributors/patricktheodore/social-network-api?color=brightgreen&label=Contributors&style=for-the-badge" target="_blank" /></a>
-  <a href="https://github.com/patricktheodore/social-network-api/network/members"><img alt="total number of times the repo has been forked" src="https://img.shields.io/github/forks/patricktheodore/social-network-api?color=blue&label=Forks&style=for-the-badge" target="_blank" /></a>
-  <a href="https://github.com/patricktheodore/social-network-api/stargazers"><img alt="total number of times the repo has been starred" src="https://img.shields.io/github/stars/patricktheodore/social-network-api?color=blueviolet&label=Stars&style=for-the-badge" target="_blank" /></a>
+  <a href="https://github.com/patricktheodore/patricktheodore-react-portfolio/graphs/contributers"><img alt="the number of contributers on the repo" src="https://img.shields.io/github/contributors/patricktheodore/patricktheodore-react-portfolio?color=brightgreen&label=Contributors&style=for-the-badge" target="_blank" /></a>
+  <a href="https://github.com/patricktheodore/patricktheodore-react-portfolio/network/members"><img alt="total number of times the repo has been forked" src="https://img.shields.io/github/forks/patricktheodore/patricktheodore-react-portfolio?color=blue&label=Forks&style=for-the-badge" target="_blank" /></a>
+  <a href="https://github.com/patricktheodore/patricktheodore-react-portfolio/stargazers"><img alt="total number of times the repo has been starred" src="https://img.shields.io/github/stars/patricktheodore/patricktheodore-react-portfolio?color=blueviolet&label=Stars&style=for-the-badge" target="_blank" /></a>
   </p>
 
   <div align="center">
     <p>
-      <h3>A Backend for a social network, that handles requests for users, thoughts, and reactions. </h3>
-      <a href="https://github.com/patricktheodore/social-network-api"><strong>Explore the docs »</strong></a>
+      <h3>Professional Portfolio</h3>
+      <a href="https://github.com/patricktheodore/patricktheodore-react-portfolio"><strong>Explore the docs »</strong></a>
       <br />
-      <a href="https://github.com/patricktheodore/social-network-api">View Demo</a>
+      <a href="https://github.com/patricktheodore/patricktheodore-react-portfolio">View Demo</a>
        | 
-      <a href="https://github.com/patricktheodore/social-network-api/issues">Report Bug</a>
+      <a href="https://github.com/patricktheodore/patricktheodore-react-portfolio/issues">Report Bug</a>
        | 
-      <a href="https://github.com/patricktheodore/social-network-api/issues">Request Feature</a>
+      <a href="https://github.com/patricktheodore/patricktheodore-react-portfolio/issues">Request Feature</a>
     </p>
   </div>
 
@@ -63,18 +63,28 @@
   
   <!-- ABOUT THE PROJECT -->
   # About The Project
-  This Backend applicatio
+  Powered by React & Bootstrap
 
   </br> 
 
   # Built With
   <p align="center">
-  <a><img alt="badge for JavaScript Language" src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" target="_blank" /></a><a><img alt="badge for Express.js Framework" src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB" target="_blank" /></a>
-<a><img alt="badge for Next JS" src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white" target="_blank" /></a>
-<a><img alt="badge for Node.js" src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" target="_blank" /></a><a><img alt="badge for Visual Studio Code" src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white" target="_blank" /></a><a><img alt="badge for GitHub" src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" target="_blank" /></a>
-<a><img alt="badge for GitLab" src="https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white" target="_blank" /></a>
-<a><img alt="badge for MongoDB" src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white" target="_blank" /></a>
-<a><img alt="badge for Postman" src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" target="_blank" /></a>
+  https://img.shields.io/badge/License-MIT-yellow
+<a><img alt="badge for Canva" src="https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white" target="_blank" /></a>
+<a><img alt="badge for CSS3 Language" src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" target="_blank" /></a>
+<a><img alt="badge for Figma" src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white" target="_blank" /></a>
+<a><img alt="badge for FontAwesome" src="https://img.shields.io/badge/Font_Awesome-339AF0?style=for-the-badge&logo=fontawesome&logoColor=white" target="_blank" /></a>
+<a><img alt="badge for Git" src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" target="_blank" /></a>
+<a><img alt="badge for GitHub" src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" target="_blank" /></a>
+<a><img alt="badge for Google Drive" src="https://img.shields.io/badge/Google%20Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white" target="_blank" /></a>
+<a><img alt="badge for Google Fonts" src="https://img.shields.io/badge/google_fonts-4285F4?style=for-the-badge&logo=google&logoColor=white" target="_blank" /></a>
+<a><img alt="badge for HTML5 Language" src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" target="_blank" /></a>
+<a><img alt="badge for HTML5 Language" src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" target="_blank" /></a>
+<a><img alt="badge for Markdown Language" src="https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white" target="_blank" /></a>
+<a><img alt="badge for NPM" src="https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white" target="_blank" /></a>
+<a><img alt="badge for Node.js" src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" target="_blank" /></a>
+<a><img alt="badge for React" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" target="_blank" /></a>
+<a><img alt="badge for Visual Studio Code" src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white" target="_blank" /></a>
 
 
   </p>
@@ -86,50 +96,42 @@
   # Getting Started
   
   ## Prerequisites
-    Insomnia/Postman/MongoDB
+    
   
   ## Installation
-    Fork and Clone
+    
 
   <br>
 
   <!-- USAGE EXAMPLES -->
   # Usage
-    N/A
+    
   
   <br>
 
   <!-- CONTRIBUTING -->
   # Contributing
-  Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
-    
-  If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement". Don't forget to give the project a star! Thanks again!
-    
-    * Fork the Project
-    * Create your Feature Branch (git checkout -b feature/AmazingFeature)
-    * Commit your Changes (git commit -m 'Add some AmazingFeature')
-    * Push to the Branch (git push origin feature/AmazingFeature)
-    * Open a Pull Request
+  This project is for private use and not looking for contributions at this time.
   
   <br>
 
   <!-- LICENSE -->
   # License
-  Distributed under the MIT. Please see for https://opensource.org/licenses/MIT more details. 
+  Distributed under MIT. Please see for https://opensource.org/licenses/MIT more details. 
 
   <br>
 
   <!-- TEST -->
   # Tests
-    N/A
+    
   
   <br>
 
   <!-- QUESTIONS & CONTACT -->
   # Questions & Contact Info
   <a href="https://github.com/patricktheodore"><img alt="badge for GitHub" src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" target="_blank" /></a>
-  <a href="https://patricktheodore.github.io/patricktheodore-portfolio/"><img alt="link to user portfolio" src="https://img.shields.io/static/v1?label=PORTFOLIO&message=patricktheodore&color=green&style=for-the-badge" target="_blank" /></a>  
-  <a href="mailto:patricktheodoresara@gmail.com"><img alt="Link to email contact address" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>  
+  <a href=""><img alt="link to user portfolio" src="https://img.shields.io/static/v1?label=PORTFOLIO&message=patricktheodore&color=green&style=for-the-badge" target="_blank" /></a>
+  <a href="mailto:patricktheodoresara@gmail.com"><img alt="Link to email contact address" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
   <br>
   
   <!-- ACKNOWLEDGMENTS -->
